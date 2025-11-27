@@ -1,4 +1,4 @@
-
+import Footer from './components/Footer'
 import './globals.css'
 import React from 'react'
 
@@ -11,7 +11,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="relative min-h-screen overflow-hidden">
         {children}
-   
+        {/* <div className='fixed bottom-0 w-full z-10'>
+          <Footer />
+        </div> */}
       </body>
     </html>
   )
